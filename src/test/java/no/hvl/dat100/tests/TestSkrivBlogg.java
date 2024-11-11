@@ -1,14 +1,14 @@
 package no.hvl.dat100.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 import no.hvl.dat100.oppgave2.Bilde;
 import no.hvl.dat100.oppgave2.Tekst;
-import no.hvl.dat100.oppgave3.*;
-import no.hvl.dat100.oppgave4.*;
+import no.hvl.dat100.oppgave3.Blogg;
+import no.hvl.dat100.oppgave4.SkrivBlogg;
 
-public class TestSkrivBlogg {
+public class TestSkrivBlogg  {
 
 	private static String FILNAVN = "blogg.dat";
 	private static String MAPPE = System.getProperty("user.dir") + "/src/test/java/no/hvl/dat100/tests/";
